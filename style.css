@@ -1,0 +1,113 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+body{
+height:100vh;
+width:100vw;
+font-family:Arial, Helvetica, sans-serif;
+background: rgb(44,34,195);
+background: linear-gradient(0deg, rgba(44,34,195,1) 31%, rgba(253,45,248,1) 90%);
+display: grid;
+place-items: center;
+}
+.contener{
+  height: 70vh;
+  width: 50vw;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  background-color:rgba(255, 255, 255, 0.192) ;
+  backdrop-filter: blur(20px);
+}
+
+.wether{
+  margin-top: rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .3rem;
+}
+.wether-dowen{
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 13rem;
+  row-gap: 1rem;
+
+}
+.wether-box{
+  height: 8vh;
+  width:15vw ;
+  background-color:#d1c9c99e;
+  backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  /* border: 1px solid rgb(185, 161, 161); */
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.search-box{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+   border-radius:1rem;
+   /* background: #edeaea79; */
+  /* backdrop-filter: blur(20px);  */
+   position:relative;
+   height: 7vh;
+   width: 17vw;
+   -webkit-border-radius:1rem;
+   -moz-border-radius:1rem;
+   -ms-border-radius:1rem;
+   -o-border-radius:1rem;
+   margin: .5rem 0 0 .5rem ;
+   position: relative;
+}
+.search-box i{
+  top: 1rem;
+  left: 1.9rem;
+  position: absolute;
+  margin-right: .3rem;
+}
+.search-box input{
+  padding-left: 1.6rem;
+  border: none;
+  color: #000000;
+  height: 2rem;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+}
+  
+
+.massege-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:40px;
+  width: 180px;
+   text-align: center;
+  background-color: #191414;
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  -ms-border-radius:3px;
+  -o-border-radius:3px;
+  -webkit-border-radius: 15px;
+  color: #fafafa;
+  font-weight: 500;
+  text-transform: capitalize;
+}
